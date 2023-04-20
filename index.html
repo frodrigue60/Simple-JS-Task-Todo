@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-body">
+            <div class="task-form">
+                <div class="input-form">
+                    <input id="input" type="text" placeholder="Task title">
+                    <textarea placeholder="Task description" id="description" cols="" rows="2"></textarea>
+                </div>
+                <div class="buttons-form">
+                    <button id="addTaskBtn" class="add-btn" onclick="addTask()">Add Task</button>
+                    <button id="updateBtn" hidden>Update Task</button>
+                </div>
+            </div>
+            <br>
+            <div class="tasks">
+                <div class="task-body">
+                    <div class="task-header">
+                        <span id="task-title" class="">task title</span>
+                        <span id="task-description" class="">Task description lore</span>
+                    </div>
+                    <div class="task-buttons">
+                        <button class="delete-btn" onclick="">Delete</button>
+                        <button onclick="" class="update-btn">Edit</button>
+                    </div>
+                </div>
+                <div class="task-body">
+                    <div class="task-header">
+                        <span>task title</span>
+                        <span>Task description</span>
+                    </div>
+                    <div class="task-buttons">
+                        <button class="delete-btn" onclick="">Delete</button>
+                        <button onclick="" class="update-btn">Edit</button>
+                    </div>
+                </div>
+                <div class="task-body">
+                    <div class="task-header">
+                        <span>task title</span>
+                        <span>Task description</span>
+                    </div>
+                    <div class="task-buttons">
+                        <button class="delete-btn" onclick="">Delete</button>
+                        <button onclick="" class="update-btn">Edit</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
