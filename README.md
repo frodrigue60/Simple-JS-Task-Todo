@@ -1,6 +1,6 @@
 # Simple JS Task To-do app
 
-This is a simple to-do javascript application, using HTML5, CSS, and vanilla Javascript
+This is a simple to-do javascript application, using HTML5, CSS3, and Vanilla Javascript
 
 ![Example image of the app](https://github.com/frodrigue60/Simple-JS-Task-Todo/blob/master/todo.png?raw=true)
 
