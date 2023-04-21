@@ -11,50 +11,59 @@
 
 <body>
     <div class="container">
+        <center><h1>Simple JS Taskt Todo</h1></center>
         <div class="todo-body">
             <div class="task-form">
                 <div class="input-form">
                     <input id="input" type="text" placeholder="Task title">
-                    <textarea placeholder="Task description" id="description" cols="" rows="2"></textarea>
+                    <textarea placeholder="Task description" id="description" cols="" rows="1"></textarea>
                 </div>
                 <div class="buttons-form">
                     <button id="addTaskBtn" class="add-btn" onclick="addTask()">Add Task</button>
-                    <button id="updateBtn" hidden>Update Task</button>
+                    <button id="updateBtn" class="update-btn" hidden>Update</button>
+                    <button id="cancelBtn" hidden>Cancel</button>
                 </div>
             </div>
             <br>
             <div class="tasks">
-                <div class="task-body">
-                    <div class="task-header">
-                        <span id="task-title" class="">task title</span>
-                        <span id="task-description" class="">Task description lore</span>
+                <!-- <div class="task-body">
+                    <div class="checkbox-div">
+                        <input class="checkbox" type="checkbox" name="" id="check" value="1">
                     </div>
-                    <div class="task-buttons">
-                        <button class="delete-btn" onclick="">Delete</button>
-                        <button onclick="" class="update-btn">Edit</button>
+                    <div class="task-x">
+                        <div class="task-header" id="task_1">
+                            <span id="task-title" class="">task title</span>
+                            <span id="task-description" class="">Task description lore</span>
+                        </div>
+                        <div class="task-buttons">
+                            <button class="delete-btn" onclick="">Delete</button>
+                            <button onclick="" class="update-btn">Edit</button>
+                        </div>
                     </div>
-                </div>
-                <div class="task-body">
-                    <div class="task-header">
-                        <span>task title</span>
-                        <span>Task description</span>
+                </div> -->
+            </div>
+            <div id="no-tasks" hidden>
+                <h3>No tasks</h3>
+            </div>
+            <br>
+            <div id="finished-tasks" hidden>
+                <h3>Finished Tasks</h3>
+            </div>
+            <div class="finished-tasks">
+                <!-- <div class="task-body">
+                    <div class="checkbox-div">
+                        <input class="checkbox" type="checkbox" name="" id="check" value="1">
                     </div>
-                    <div class="task-buttons">
-                        <button class="delete-btn" onclick="">Delete</button>
-                        <button onclick="" class="update-btn">Edit</button>
+                    <div class="task-x">
+                        <div class="task-header" id="task_1">
+                            <span id="task-title" class="strike">task title</span>
+                            <span id="task-description" class="strike">Task description lore</span>
+                        </div>
+                        <div class="task-buttons">
+                            <button class="delete-btn" onclick="">Delete</button>
+                        </div>
                     </div>
-                </div>
-                <div class="task-body">
-                    <div class="task-header">
-                        <span>task title</span>
-                        <span>Task description</span>
-                    </div>
-                    <div class="task-buttons">
-                        <button class="delete-btn" onclick="">Delete</button>
-                        <button onclick="" class="update-btn">Edit</button>
-                    </div>
-                </div>
-
+                </div> -->
             </div>
         </div>
     </div>
